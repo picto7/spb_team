@@ -1,6 +1,7 @@
 import random
-N = int(input())
+
 A = []
+N = 10
 for i in range(N):
     A.append(random.randint(1,51))
 print(A)
